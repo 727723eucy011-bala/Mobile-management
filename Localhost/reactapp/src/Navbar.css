@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  color: #2c3e50;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background: #2c3e50;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo {
+  color: white;
+  margin: 0;
+}
+.navbar .nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar .nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Candidate Cards */
+.candidate-card {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.candidate-card h2 {
+  margin-top: 0;
+}
+.candidate-card button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.candidate-card button:hover {
+  background: darkred;
+}
+
+/* Form */
+.candidate-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.candidate-form input, .candidate-form button {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.candidate-form button {
+  background: #2c3e50;
+  color: white;
+  cursor: pointer;
+}
+.candidate-form button:hover {
+  background: #34495e;
+}

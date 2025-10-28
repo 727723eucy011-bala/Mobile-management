@@ -1,0 +1,31 @@
+.controls {
+ display: flex;
+ justify-content: space-between;
+ margin: 20px 0;
+ }
+ 
+ .controls select,
+ .controls button {
+ padding: 10px 15px;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ font-size: 1rem;
+ cursor: pointer;
+ transition: 0.3s;
+ }
+ 
+ .controls select:focus {
+ border-color: #4facfe;
+ box-shadow: 0 0 4px #4facfe;
+ }
+ 
+ .controls button {
+ background: linear-gradient(90deg, #36d1dc, #5b86e5);
+ color: white;
+ border: none;
+ }
+ 
+ .controls button:hover {
+ transform: scale(1.05);
+ }
+ 
